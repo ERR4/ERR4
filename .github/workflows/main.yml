@@ -4,8 +4,6 @@ name: CI
 
 # Controls when the workflow will run
 on: 
-  watch:
-    type: "started"
   push:
     branches: [ 'main', 'ERR4-patch-2', 'ERR4-patch-1', 'ERR4-patch-1-1']
 # pull_request:
